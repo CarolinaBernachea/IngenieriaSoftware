@@ -17,6 +17,12 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
+        <Button Grid.Row="1" Grid.Column="0" Width="Auto" Click="OnClick" Margin="0,0,41,79">
+            <DockPanel Width="223" Height="51" FlowDirection="LeftToRight">
+                <Image Source="Imagenes/twitter.png" VerticalAlignment="Center" HorizontalAlignment="Left" Width="50" Height="50"/>
+                <TextBlock FontWeight="Bold" FontSize="16" Text="HACÉ CLICK ACÁ" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Margin="0,12,0,19" Width="135"/>
+            </DockPanel>
+        </Button>
         <Button Grid.Row="1" Grid.Column="1" Width="Auto" Click="OnClick" Margin="0,0,41,79">
             <DockPanel Width="223" Height="51" FlowDirection="LeftToRight">
                 <Image Source="Imagenes/twitter.png" VerticalAlignment="Center" HorizontalAlignment="Left" Width="50" Height="50"/>
